@@ -1,0 +1,27 @@
+{
+  "name": "PROJECT-NAME",
+  "version": "1.0.0",
+  "description": "PROJECT-DSC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GITHUB-USER/PROJECT-NAME"
+  },
+  "main": "index.js",
+  "keywords": [
+    "GraphQL"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-graphql": "^0.5.1",
+    "graphql": "^0.6.0"
+  },
+  "scripts": {
+    "build": "bash ./bash/build.bash",
+    "clean": "bash ./bash/clean.bash",
+    "gitinit": "bash ./bash/gitinit.bash",
+    "gitupdate": "bash ./bash/gitupdate.bash"
+  },
+  "author": "Darek L",
+  "license": "MIT",
+  "homepage": "http://javascript.iscool.pl"
+}

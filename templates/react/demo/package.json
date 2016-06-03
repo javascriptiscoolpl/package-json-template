@@ -6,7 +6,7 @@
   "dependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "CHANGE-HERE": "^1.0.0"
+    "PROJECT-NAME": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
@@ -22,11 +22,8 @@
     "react-dom": "^15.0.0"
   },
   "scripts": {
-    "get": "npm install",
-    "transform": "./node_modules/.bin/browserify -t [ ./node_modules/babelify --presets [ es2015 react ] ] ./src/index.js -o ./index.js",
-    "ignore": "cat ./ignore.template > ./.gitignore; cat ./ignore.template > ./.npmignore",
-    "clean": "rm -rf ./node_modules",
-    "build": "npm run get; npm run transform; npm run ignore"
+    "build": "bash ./bash/build.bash",
+    "clean": "bash ./bash/clean.bash"
   },
   "author": "Darek L",
   "license": "MIT",

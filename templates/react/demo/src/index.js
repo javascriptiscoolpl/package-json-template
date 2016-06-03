@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import rcl from "CHANGE-HERE";
+import rcl from "PROJECT-NAME";
 
 // sample page content
 class App extends React.Component {
